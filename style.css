@@ -1,0 +1,166 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Oxygen', sans-serif;
+            font-family: 'Quicksand', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .background {
+            background: linear-gradient(35deg, rgb(40, 132, 253) 20%, rgb(175, 2, 255) 60%);
+        }
+        
+        .container {
+            flex: content;
+            width: 50px;
+            max-width: 18vw;
+            max-height: 30vw;
+            height: 495px;
+            border: 1 solid;
+            border-radius: 30px;
+            border-color: black;
+            margin-top: 50px;
+            flex-flow: column;
+            background-color: white;
+        }
+        
+        .header h1 {
+            font-family: 'Quicksand', sans-serif;
+            color: rgb(255, 92, 92);
+            margin-left: 85px;
+            margin-top: 30px;
+        }
+        
+        .head h4 {
+            color: rgb(128, 128, 128);
+            margin-left: 60px;
+            margin-top: 5px;
+        }
+        
+        .email {
+            font-style: italic;
+            border: 1px solid;
+            border-radius: 9px;
+            border-color: lightgray;
+            margin-top: 25px;
+            padding: 5px;
+            width: 250px;
+            height: 45px;
+            max-width: 15vw;
+            max-height: 15vw;
+            margin-left: 45px;
+            padding: 15px;
+            overflow: hidden;
+        }
+        
+        .password {
+            font-style: italic;
+            border: 1px solid;
+            border-radius: 9px;
+            border-color: lightgray;
+            margin-top: 15px;
+            padding: 5px;
+            width: 250px;
+            height: 45px;
+            max-width: 15vw;
+            max-height: 15vw;
+            margin-left: 45px;
+            padding: 15px;
+        }
+        
+        .conditions {
+            margin-left: 114px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border: 1 solid;
+            border-radius: 20px;
+            padding: 5px;
+            width: 250px;
+            height: 10px;
+            max-width: 15vw;
+            max-height: 15vw;
+            color: rgb(119, 119, 119);
+        }
+        
+        .signup {
+            border: 0;
+            border-radius: 20px;
+            margin-top: 15px;
+            width: 250px;
+            height: 40px;
+            max-width: 15vw;
+            max-height: 15vw;
+            margin-left: 45px;
+            color: white;
+            background-color: rgb(255, 92, 92);
+        }
+        
+        .googlesignup {
+            font: bolder;
+            border-radius: 20px;
+            margin-top: 15px;
+            width: 250px;
+            height: 40px;
+            max-width: 15vw;
+            max-height: 15vw;
+            margin-left: 45px;
+            background-color: white;
+            color: rgb(184, 0, 0);
+            border-color: rgb(184, 0, 0);
+        }
+        
+        .alreadyacc h4 {
+            font-family: 'Oxygen', sans-serif;
+            font-size: 12;
+            flex: content;
+            width: 339px;
+            height: 60px;
+            max-width: 100vw;
+            max-height: 100vw;
+            border-bottom-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            background-color: rgb(241, 241, 241);
+            margin-top: 26px;
+            margin-left: 0px;
+            padding: 5px;
+            padding-top: 22px;
+            padding-left: 58px;
+        }
+        
+        .separator {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width: 90%;
+            border-bottom: 1px solid #60636a;
+            text-align: center;
+            height: 18px;
+            margin-bottom: 15px;
+            margin-top: 15px;
+            margin-left: 13px;
+        }
+        
+        .separator span {
+            line-height: 15px;
+            padding: 0 10px;
+            background: white;
+            /* Farbe des Elements darunter */
+            display: inline-block;
+            margin-top: 10px;
+            color: #60636a;
+        }
+        
+        .footer .container {
+            flex: content;
+            background-color: rgb(0, 0, 0);
+            width: 100px;
+            height: 100px;
+            max-width: 100vw;
+            max-height: 100vw;
+        }
